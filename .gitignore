@@ -1,0 +1,16 @@
+# Local Swytchcode workspace and generated configuration
+.swytchcode/tooling.json
+.swytchcode/tooling.json.lock
+.swytchcode/workspace.json
+.swytchcode/integrations/**/*.lock
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
